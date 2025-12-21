@@ -1,0 +1,170 @@
+.skillbuff img
+{
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 13px;
+    filter:drop-shadow(1px 1px 10px rgb(15, 99, 255));
+    border: rgb(255, 255, 255) solid;
+
+}
+
+.skilldamage img
+{
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 13px;
+    filter:drop-shadow(1px 1px 10px rgb(255, 15, 15));
+    border: rgb(255, 255, 255) solid;
+
+}
+
+
+
+.keyword-stimulant{
+    color: rgb(21, 214, 46);
+    /* border: 2px rgb(167, 23, 23) dashed; */
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline dashed;
+    z-index: 0;
+}
+
+.skill1description .stimulant{
+    
+    display:none;
+    z-index: 1;
+    background-color: rgb(38, 26, 90);
+    position: absolute;
+    width: 450px;
+    height: auto;
+    /* border: 2px rgb(167, 23, 23) dashed; */
+    margin-top: -200px;
+    margin-left: -180px;
+}
+
+.keyword-stimulant:hover {
+
+    .stimulant{
+        display: flex;
+        text-align: center;
+        align-content: center;
+        display: inline;
+        color: rgb(255, 255, 255);
+    }
+
+
+
+}
+
+.keyword-confusionagent{
+    color: rgb(21, 214, 46);
+    /* border: 2px rgb(167, 23, 23) dashed; */
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline dashed;
+    z-index: 0;
+}
+
+.skill1description .confusionagent{
+    
+    display:none;
+    z-index: 1;
+    background-color: rgb(38, 26, 90);
+    position: absolute;
+    width: 450px;
+    height: auto;
+    /* border: 2px rgb(167, 23, 23) dashed; */
+    margin-top: -160px;
+    margin-left: -120px;
+}
+
+.keyword-confusionagent:hover {
+
+    .confusionagent{
+        display: flex;
+        text-align: center;
+        align-content: center;
+        display: inline;
+        color: rgb(255, 255, 255);
+    }
+}
+
+
+.keyword-infatuated{
+    color: rgb(21, 214, 46);
+    /* border: 2px rgb(167, 23, 23) dashed; */
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline dashed;
+    z-index: 0;
+}
+
+.skill1description .infatuated{
+    
+    display:none;
+    z-index: 1;
+    background-color: rgb(38, 26, 90);
+    position: absolute;
+    width: 450px;
+    height: auto;
+    /* border: 2px rgb(167, 23, 23) dashed; */
+    margin-top: -130px;
+    margin-left: -170px;
+}
+
+.keyword-infatuated:hover {
+
+    .infatuated{
+        display: flex;
+        text-align: center;
+        align-content: center;
+        display: inline;
+        color: rgb(255, 255, 255);
+    }
+}
+
+
+
+
+
+
+.keyword-laso{
+    color: rgb(21, 214, 46);
+    /* border: 2px rgb(167, 23, 23) dashed; */
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline dashed;
+    z-index: 0;
+}
+
+.keyword-laso .laso{
+    
+    display:none;
+    z-index: 1;
+    background-color: rgb(38, 26, 90);
+    position: absolute;
+    width: 450px;
+    height: auto;
+    /* border: 2px rgb(167, 23, 23) dashed; */
+    margin-top: -150px;
+    margin-left: -200px;
+}
+
+.keyword-laso:hover {
+
+    .laso{
+        display: flex;
+        text-align: center;
+        align-content: center;
+        display: inline;
+        color: rgb(255, 255, 255);
+    }
+}

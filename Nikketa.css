@@ -1,0 +1,75 @@
+.skillbuff img
+{
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 13px;
+    filter:drop-shadow(1px 1px 10px rgb(15, 99, 255));
+    border: rgb(255, 255, 255) solid;
+
+}
+
+.skilldamage img
+{
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 13px;
+    filter:drop-shadow(1px 1px 10px rgb(255, 15, 15));
+    border: rgb(255, 255, 255) solid;
+
+}
+
+.skillpassive img
+{
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 13px;
+    filter:drop-shadow(1px 1px 10px rgb(133, 255, 158));
+    border: rgb(255, 255, 255) solid;
+
+}
+
+
+
+.keyword-silverwing{
+    color: rgb(21, 214, 46);
+    /* border: 2px rgb(167, 23, 23) dashed; */
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline dashed;
+    z-index: 0;
+}
+
+.keyword-silverwing .silverwing{
+    
+    display:none;
+    z-index: 1;
+    background-color: rgb(38, 26, 90);
+    position: absolute;
+    width: 450px;
+    height: auto;
+    /* border: 2px rgb(167, 23, 23) dashed; */
+    margin-top: -150px;
+    margin-left: -100px;
+}
+
+.keyword-silverwing:hover {
+
+    .silverwing{
+        display: flex;
+        text-align: center;
+        align-content: center;
+        display: inline;
+        color: rgb(255, 255, 255);
+    }
+
+
+
+}
+

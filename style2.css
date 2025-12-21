@@ -2,7 +2,8 @@
 
 
     display: grid;
-     grid-template-columns: 400px 2fr 1fr;
+     grid-template-columns: 400px 2fr 400px;
+    
      margin-top: 80px;
      margin-left: 20px;
      margin-right: 20px;
@@ -21,13 +22,20 @@
 
 .container2{
 
-    height: 800px;
-     /* border: 3px dashed rgb(12, 16, 253); */
-     font-family: 'prompt';
+    height: auto;
+    /* border: 3px dashed rgb(12, 16, 253); */
+    font-family: 'prompt';
     font-weight: 500;
     font-size: 24px;
+    
      
 }
+.container3{
+     /* border: 3px dashed rgb(12, 16, 253); */
+     margin-left: -30px;
+     width: auto;
+}
+
 
 
 .name{
@@ -37,7 +45,7 @@
     flex-direction: column;
     text-align: left;
     font-family: 'prompt';
-    font-weight: 200;
+    font-weight: 700;
     font-size: 24px;
     color: whitesmoke;
   
@@ -100,6 +108,15 @@
     filter:drop-shadow(1px 1px 10px rgb(207, 230, 124));
     border: rgb(255, 255, 255) solid;
 }
+.passiveicon img{
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    filter:drop-shadow(1px 1px 10px rgb(124, 230, 166));
+    border: rgb(255, 255, 255) solid;
+}
 
 
 .container-skill{
@@ -108,7 +125,7 @@
     padding-bottom: 20px;
     margin-bottom: 20px;
     filter:drop-shadow(1px 10px 8px rgb(12, 12, 12));
-    margin-right: 20px;
+    margin-right: 60px;
 }
 
 .skill1head
@@ -119,9 +136,9 @@
 
 .skillname
 {
-    margin-left: 40px;
+    margin-left: 20px;
     font-family: 'prompt';
-    font-weight:bolder;
+    font-weight: 500;
     font-size: 24px;
     color: gold;
     letter-spacing: 2px;
@@ -130,6 +147,7 @@
 
 .skill1description{
     margin-left: 40px;
+    margin-right: 40px;
     color: aliceblue;
     z-index: 0;
 }
@@ -151,12 +169,12 @@
 
     display:none;
     z-index: 1;
-    background-color: rgb(18, 16, 19);
+    background-color: rgb(24, 25, 78);
     position: absolute;
     width: 250px;
     height: auto;
-    border: 2px rgb(167, 23, 23) dashed;
-    margin-top: -180px;
+    /* border: 2px rgb(167, 23, 23) dashed; */
+    margin-top: -260px;
     margin-left: -5px;
 }
 
@@ -172,7 +190,499 @@
     
 }
 
+.keyword-Overflowingcare{
+    color: rgb(21, 214, 46);
+    /* border: 2px rgb(167, 23, 23) dashed; */
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline dashed;
+    z-index: 0;
+}
+
+.skill1description .Overflowingcaredescription{
+    
+    display:none;
+    z-index: 1;
+    background-color: rgb(38, 26, 90);
+    position: absolute;
+    width: 450px;
+    height: auto;
+    /* border: 2px rgb(167, 23, 23) dashed; */
+    margin-top: -330px;
+    margin-left: -100px;
+}
+
+.keyword-Overflowingcare:hover {
+
+    .Overflowingcaredescription{
+        display: flex;
+        text-align: center;
+        align-content: center;
+        display: inline;
+        color: rgb(255, 255, 255);
+    }
+}
+.subskilltext{
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.keyword-FalseIntel{
+    color: rgb(21, 214, 46);
+    /* border: 2px rgb(167, 23, 23) dashed; */
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline dashed;
+    z-index: 0;
+}
+
+.keyword-FalseIntel .FalseInteldescription{
+    display:none;
+    z-index: 1;
+    background-color: rgb(38, 26, 90);
+    position: absolute;
+    width: 450px;
+    height: auto;
+    /* border: 2px rgb(167, 23, 23) dashed; */
+    margin-top: -190px;
+    margin-left: -120px;
+}
+
+.keyword-FalseIntel:hover {
+
+    .FalseInteldescription{
+        display: flex;
+        text-align: center;
+        align-content: center;
+        display: inline;
+        color: rgb(255, 255, 255);
+    }
+}
+
+.keyword-Congestion{
+    color: rgb(21, 214, 46);
+    /* border: 2px rgb(167, 23, 23) dashed; */
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline dashed;
+    z-index: 0;
+}
+
+.keyword-Congestion .Congestiondescription{
+    display:none;
+    z-index: 1;
+    background-color: rgb(38, 26, 90);
+    position: absolute;
+    width: 450px;
+    height: auto;
+    /* border: 2px rgb(167, 23, 23) dashed; */
+    margin-top: -80px;
+    margin-left: -150px;
+}
 
 
+
+.keyword-Congestion:hover {
+
+    .Congestiondescription{
+        display: flex;
+        text-align: center;
+        align-content: center;
+        display: inline;
+        color: rgb(255, 255, 255);
+    }
+}
+
+.keyword-damp{
+
+    color: rgb(21, 214, 46);
+    /* border: 2px rgb(167, 23, 23) dashed; */
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline dashed;
+    z-index: 0;
+}
+
+.keyword-damp .dampdescription{
+    display:none;
+    z-index: 1;
+    background-color: rgb(38, 26, 90);
+    position: absolute;
+    width: 450px;
+    height: auto;
+    /* border: 2px rgb(167, 23, 23) dashed; */
+    margin-top: -150px;
+    margin-left: -180px;
+}
+
+.keyword-damp:hover {
+
+    .dampdescription{
+        display: flex;
+        text-align: center;
+        align-content: center;
+        display: inline;
+        color: rgb(255, 255, 255);
+    }
+}
+
+.SFWeap{
+    display: flex;
+    background-color: rgb(26, 26, 27);
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.Weaponname{
+    font-size: 48px;
+    font-family: 'prompt';
+    font-weight: 500;
+    color: aliceblue;
+    margin-left: 20px;
+}
+
+.Weapondesc{
+    
+    /* flex-direction: column; */
+    margin-right: 40px;
+    font-size: 24px;
+    font-family: 'prompt';
+    font-weight: 500;
+    color: aliceblue;
+    display: flex;
+    margin-left: 20px;
+    z-index: 0;
+}
+
+.keyword-FaithPiercer .FaithPiercerdescription{
+    display:none;
+    z-index: 1;
+    background-color: rgb(38, 26, 90);
+    position: absolute;
+    width: 450px;
+    height: auto;
+    /* border: 2px rgb(167, 23, 23) dashed; */
+    margin-top: -120px;
+    margin-left: -160px;
+}
+
+.keyword-FaithPiercer{
+    color: rgb(21, 214, 46);
+    /* border: 2px rgb(167, 23, 23) dashed; */
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline dashed;
+    z-index: 0;
+    margin-left: 0px;
+    
+}
+   
+
+.keyword-FaithPiercer:hover{
+    .FaithPiercerdescription{
+        display: flex;
+        text-align: center;
+        align-content: center;
+        display: inline;
+        color: rgb(255, 255, 255);
+    }
+}
+
+.weapon-container{
+    background-color: rgba(59, 58, 68, 1);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    filter:drop-shadow(1px 10px 8px rgb(12, 12, 12));
+}
+
+.weaponsubskill{
+    font-size: 24px;
+    font-family: 'prompt';
+    font-weight: 500;
+    color: aliceblue;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.key-container{
+    height: auto;
+    background-color: rgba(59, 58, 68, 1);
+    margin-bottom: 20px;
+    filter:drop-shadow(1px 10px 8px rgb(12, 12, 12));
+    margin-top: 10px; 
+    margin-right: 80px;
+}
+
+.key-heading{
+    font-size: 48px;
+    font-family: 'prompt';
+    font-weight: 700;
+    color: aliceblue;
+    letter-spacing: 5px;
+    padding-left: 20px;   
+}
+
+.key{
+    align-items: center;
+    display:flex;
+    margin-right: 80px;
+}
+
+.keytext{
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: aliceblue;
+
+}
+
+.vertebrae-container{
+    height: auto;
+    background-color: rgba(59, 58, 68, 1);
+    margin-bottom: 20px;
+    filter:drop-shadow(1px 10px 8px rgb(12, 12, 12));
+    margin-top: 10px; 
+    margin-right: 80px;
+
+}
+
+.vertebraetext{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: aliceblue;
+}
+
+.vertebrae{
+    align-items: center;
+    display:flex;
+    padding-right: 30px;
+}
+
+
+
+
+
+
+.grid-container-loadout{
+    display: grid;
+     grid-template-columns: 1fr 1fr;
+     /* border: 3px dashed rgb(12, 16, 253); */
+     width: auto;
+     height: 2000px;
+     margin-top: 10px;
+     margin-left: 40px;
+     margin-right: 40px;
+     gap: 20px;
+}
+
+.LeftLoadout{
+    /* border: 3px dashed rgb(48, 253, 12); */
+}
+
+.RightLoadout{
+    /* border: 3px dashed rgb(48, 253, 12); */
+}
+
+.loadout{
+
+    display: flex;
+    margin-bottom: 30px;
+    /* border: 3px dashed rgb(48, 253, 12); */
+    font-size: 72px;
+    font-family: 'prompt';
+    font-weight: 700;
+    color: rgb(204, 252, 10);
+    letter-spacing: 10px;
+
+}
+
+
+.weapon-head{
+
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-family: 'prompt';
+    font-weight: 500;
+    padding-left: 40px;
+    color: aliceblue;
+    letter-spacing: 5px;
+
+}
+
+.weapondesc{
+
+    background-color: rgba(59, 58, 68, 1);
+    filter:drop-shadow(1px 10px 8px rgb(12, 12, 12));
+    border-radius: 13px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 24px;
+    font-family: 'prompt';
+    font-weight: 500;
+    color: aliceblue;
+    letter-spacing: 5px;
+    display: flex;
+    align-items: center
+    
+}
+
+.weapondesc img{
+    margin-right: 40px;
+}
+
+.setปืน{
+
+    margin-top: 135px;
+    text-align: center;
+     margin-bottom: 50px;
+    /* border: 3px dashed rgb(48, 253, 12); */
+    font-size: 48px;
+    font-family: 'prompt';
+    font-weight: 700;
+    color: rgb(204, 252, 10);
+    letter-spacing: 10px;
+    
+}
+
+.setboost{
+    margin-top: 30px;
+    width: auto;
+    background-color: rgba(59, 58, 68, 1);
+    filter:drop-shadow(1px 10px 8px rgb(12, 12, 12));
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 19px;
+    
+    
+}
+
+.setboostname{
+    font-size: 24px;
+    font-family: 'prompt';
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.setboostcontent{
+    
+    justify-content: center;
+    letter-spacing: 5px;
+
+}
+
+.substat{
+    font-size: 24px;
+    font-family: 'prompt';
+    font-weight: 600;
+    color: aliceblue;
+    letter-spacing: 5px;
+}
+
+.setboostcontent img{
+    border-radius: 30px;
+}
+
+.setkey{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.setkeyhead{
+    
+    margin-top: 40px;
+    font-size: 48px;
+    font-family: 'prompt';
+    font-weight: 600;
+    color: aliceblue;
+    letter-spacing: 5px;
+    text-align: center;
+   
+
+}
+
+.setflower{
+
+    font-size: 48px;
+    font-family: 'prompt';
+    font-weight: 600;
+    color: rgb(204, 252, 10);
+    letter-spacing: 5px;
+    margin-top: 40px;
+    margin-left: 40px;
+    
+
+}
+
+.flowerdesc{
+
+    margin-top: 30px;
+    font-size: 24px;
+    font-family: 'prompt';
+    font-weight: 600;
+    color: aliceblue;
+    letter-spacing: 5px;
+    margin-left: 20px;
+    display: flex;
+    
+    align-items: center;
+    
+
+}
+
+.flowerbg{
+ 
+    background-color: rgba(59, 58, 68, 1);
+    filter:drop-shadow(1px 10px 8px rgb(12, 12, 12));
+    border-radius: 15px;
+    margin-left: 40px;  
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 30px;
+    
+}
+
+.flowerskillname{
+    display: flex;
+    color:rgb(32, 166, 196)
+}
+
+.flowercontent{
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.team-heading{
+    margin-top: 40px;
+    font-size: 48px;
+    font-family: 'prompt';
+    font-weight: 600;
+    color: aliceblue;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.charactericon-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px
+}
 
 
