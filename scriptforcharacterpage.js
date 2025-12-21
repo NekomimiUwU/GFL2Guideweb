@@ -38,3 +38,66 @@ function leva(){
     window.location.replace('./leva.html');
 }
 
+const Lennabutton = document.getElementById('lenna')
+
+Lennabutton.addEventListener("click", lenna)
+
+function lenna(){
+    window.location.replace('./lennaTemp.html');
+}
+
+const jybutton = document.getElementById('jiangyu')
+
+jybutton.addEventListener("click", jy)
+
+function jy(){
+    window.location.replace('./jiangyutemp.html');
+}
+
+const andorisbutton = document.getElementById('andoris')
+
+andorisbutton.addEventListener("click", andoris)
+
+function andoris(){
+    window.location.replace('./andoristemp.html');
+}
+
+const vectorbutton = document.getElementById('vector')
+
+vectorbutton.addEventListener("click", vector)
+
+function vector(){
+    window.location.replace('./vectortemp.html');
+}
+
+const qiuhuabutton = document.getElementById('qiuhua')
+
+qiuhuabutton.addEventListener("click", qiuhua)
+
+function qiuhua(){
+    window.location.replace('./qiuhuatemp.html');
+}
+
+const qiongjiubutton = document.getElementById('qiongjiu')
+
+qiongjiubutton.addEventListener("click", qiongjiu)
+
+function qiongjiu(){
+    window.location.replace('./qiongjiutemp.html');
+}
+
+const kseniabutton = document.getElementById('ksenia')
+
+kseniabutton.addEventListener("click", ksenia)
+
+function ksenia(){
+    window.location.replace('./kseniatemp.html');
+}
+
+const g36button = document.getElementById('g36')
+
+g36button.addEventListener("click", g36)
+
+function g36(){
+    window.location.replace('./g36temp.html');
+}
