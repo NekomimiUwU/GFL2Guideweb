@@ -43,7 +43,7 @@ const Lennabutton = document.getElementById('lenna')
 Lennabutton.addEventListener("click", lenna)
 
 function lenna(){
-    window.location.replace('./lennaTemp.html');
+    window.location.replace('./ump9temp.html');
 }
 
 const jybutton = document.getElementById('jiangyu')
