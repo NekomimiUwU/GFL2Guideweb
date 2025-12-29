@@ -101,3 +101,35 @@ g36button.addEventListener("click", g36)
 function g36(){
     window.location.replace('./g36temp.html');
 }
+
+const ak15button = document.getElementById('ak15')
+
+ak15button.addEventListener("click", ak15)
+
+function ak15(){
+    window.location.replace('./ak15temp.html');
+}
+
+const lainiebutton = document.getElementById('lainie')
+
+lainiebutton.addEventListener("click", lainie)
+
+function lainie(){
+    window.location.replace('./lainietemp.html');
+}
+
+const daiyanbutton = document.getElementById('daiyan')
+
+daiyanbutton.addEventListener("click", daiyan)
+
+function daiyan(){
+    window.location.replace('./daiyantemp.html');
+}
+
+const yooheebutton = document.getElementById('yoohee')
+
+yooheebutton.addEventListener("click", yoohee)
+
+function yoohee(){
+    window.location.replace('./yooheetemp.html');
+}
