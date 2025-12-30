@@ -133,3 +133,35 @@ yooheebutton.addEventListener("click", yoohee)
 function yoohee(){
     window.location.replace('./yooheetemp.html');
 }
+
+const robellabutton = document.getElementById('robella')
+
+robellabutton.addEventListener("click", robella)
+
+function robella(){
+    window.location.replace('./robellatemp.html');
+}
+
+const alvabutton = document.getElementById('alva')
+
+alvabutton.addEventListener("click", alva)
+
+function alva(){
+    window.location.replace('./alvatemp.html');
+}
+
+const makiattobutton = document.getElementById('wa2000')
+
+makiattobutton.addEventListener("click", wa2000)
+
+function wa2000(){
+    window.location.replace('./wa2000temp.html');
+}
+
+const suomibutton = document.getElementById('suomi')
+
+suomibutton.addEventListener("click", suomi)
+
+function suomi(){
+    window.location.replace('./suomitemp.html');
+}
