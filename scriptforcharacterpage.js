@@ -102,6 +102,14 @@ function g36(){
     window.location.replace('./g36temp.html');
 }
 
+const lewisbutton = document.getElementById('lewis')
+
+lewisbutton.addEventListener("click", lewis)
+
+function lewis(){
+    window.location.replace('./lewistemp.html');
+}
+
 const ak15button = document.getElementById('ak15')
 
 ak15button.addEventListener("click", ak15)
