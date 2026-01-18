@@ -37,11 +37,11 @@ body{
 .grid-container{ 
     /* border: dashed 1px greenyellow; */
     display: grid;
-    background-image: url(pic\headingbg2.png);
+    /* background-image: url(pic\headingbg2.png); */
     background: linear-gradient(to right,rgb(49, 42, 59),
     rgba(0, 149, 255, 1));
-    min-width: 1%;
-    max-width: 100%;
+    /* min-width: 1%;
+    max-width: 100%; */
     height: auto;
     box-shadow: 0 30px 50px rgb(19, 19, 19,1);
     grid-template-columns: 0.45fr 1.5fr 0.5fr;
@@ -113,16 +113,7 @@ body{
     
 }
 
-@media(max-width: 990px){
 
-    .box2{
-        display: none;
-    }
-    /* .dropdown{
-        display: none;
-    } */
-
-}
 
 .underconstruction{
 

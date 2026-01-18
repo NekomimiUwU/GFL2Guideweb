@@ -1,0 +1,45 @@
+@media (max-width: 600px) {
+    #gfl2logo{
+    height: 50px;
+    }      
+
+    .underconstructionimg{
+
+         text-align: center;
+         
+         
+    }
+    #consimg{
+
+        width: 20rem;
+    }
+
+    .box{
+
+        height: auto;
+        font-size: 8px;
+    }
+
+    .box1{
+        justify-content: center;
+        align-items: end;
+    }
+    .box2{
+        width: 250px;
+        /* border: 1px black solid; */
+        gap: 20px;  
+    }
+    
+    .grid-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .bodycontent{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    
+
+}
+
+
