@@ -1,44 +1,207 @@
+@font-face {
+    font-family: 'Prompt';
+    src: url(font\Prompt\Prompt-Regular.ttf);
+
+   
+}
+@font-face {
+
+    font-family: 'promptsemibold';
+    src: url(font\Prompt\Prompt-SemiBold.ttf);
+    
+}
 @media (max-width: 600px) {
+
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    }
+
     #gfl2logo{
     height: 50px;
+    width: auto;
     }      
 
     .underconstructionimg{
-
-         text-align: center;
-         
-         
+         text-align: center;    
     }
     #consimg{
-
-        width: 20rem;
+      width: 20rem;
     }
-
     .box{
-
+        width: auto;
         height: auto;
         font-size: 8px;
+        /* border: 4px rgba(255, 0, 0, 0.459) solid; */
     }
-
     .box1{
         justify-content: center;
         align-items: end;
+        /* border: 1px rgba(0, 255, 64, 0.459) solid; */
     }
     .box2{
+        font-size: 9px;
         width: 250px;
-        /* border: 1px black solid; */
+         /* border: 1px black solid;  */
         gap: 20px;  
     }
     
     .grid-container{
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 2fr 1fr;
+        /* border: 1px solid white; */
+        width: auto;
+        
     }
-
     .bodycontent{
         margin-top: 10px;
         font-size: 16px;
     }
+
+    .elementname{
+        text-align: center;
+        
+        /* border: 1px solid rgb(187, 255, 0); */
+
+    }
+
+    .elementheader{
+
+        margin-top: 20px;
+        width: auto;
+        height: auto;
+        display: flexbox;
+        margin-left: 5px;
+        justify-content: center;
+        /* border: 1px solid white; */
+           
+    }
+
+    #elementicon{
+        
+        width: auto
+        /* border: 1px solid rgb(187, 255, 0);*/
+    }
+
+    .flex-character-container{
+
+        text-align: center;
+        /* border: 1px solid white; */
+        width: auto;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+    .characterimg{
+        justify-content: center;
+        width: 30%;
+        /* border: 1px solid white; */
+    }
+
+    .charactername{
+        justify-content: center;
+        font-size: 16px;
+    }
+
+    /* characterdetail page */
+
+    .grid-sf-container{
+
+    flex-direction: column;   
+     /* grid-template-columns: 100px 1fr 100px; */
+     
     
+     
+     /* border: 3px dashed green; */
+    }
+    .container1{
+
+        height: auto;
+        width: auto;
+        
+    }
+    .name img{
+
+        border: 1px solid white;
+        width: 150px;
+        
+    }
+    .container2{
+
+        /* border: 1px solid white; */
+        font-size: 12px;
+    }
+
+    .heading{
+        font-size: 24px;
+    }
+
+    .subheading{
+        margin: 0;
+        font-size: 18px;
+    }
+    
+    .container-skill{
+
+        display: flex;
+        /* border: 1px solid rgb(187, 255, 0); */
+        width: 350px;
+        margin: 0;
+        margin-right: 0px;
+        margin-left: -10px;
+    }
+
+    .skill1head{
+
+        display: flex;
+        /* border: 1px solid white; */
+        width: auto;
+        
+    }
+
+    .skill1icon{
+
+        margin: 0;
+        margin-left: 20px;
+        margin-right: 7px;
+        margin-bottom: 20px;
+        border-radius: 12x;
+        
+    }
+
+    .skill1icon img{
+
+        margin: 0;
+        margin-right: 5px;
+        width: 50px;
+        height: 50px;
+        filter:drop-shadow(1px 1px 15px rgb(255, 15, 15));
+
+    }
+
+    .skillname{
+        
+        /* border: 1px solid white; */
+        margin: 0;
+        margin-top: 0px;
+        margin-right: 30px;
+        display: flex;
+        flex-direction: column;
+        font-size: 11px;
+        width: auto;
+
+    }
+
+    
+
+
+
+
+
+
+
+
 
 }
 
