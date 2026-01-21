@@ -155,14 +155,13 @@
         margin: 0;
         margin-right: 0px;
         margin-left: -10px;
+        margin-bottom: 30px;
     }
 
     .skill1head{
-
         display: flex;
         /* border: 1px solid white; */
-        width: auto;
-        
+        width: auto;    
     }
 
     .skill1icon{
@@ -181,12 +180,24 @@
         margin-right: 5px;
         width: 50px;
         height: 50px;
-        filter:drop-shadow(1px 1px 15px rgb(255, 15, 15));
+        filter:drop-shadow(1px 1px 10px rgb(255, 15, 15));
 
     }
 
-    .skillname{
-        
+    .skill2icon img{ 
+
+        margin: 0;
+        margin-right: 15px;
+        margin-left: 20px;
+        width: 50px;
+        height: 50px;
+        margin-bottom: 20px;
+        filter:drop-shadow(1px 1px 10px rgb(124, 143, 230));
+    
+
+    }
+
+    .skillname{  
         /* border: 1px solid white; */
         margin: 0;
         margin-top: 0px;
@@ -195,7 +206,13 @@
         flex-direction: column;
         font-size: 11px;
         width: auto;
+    }
 
+    .skill1description{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: aliceblue;
+    z-index: 0;
     }
 
     
