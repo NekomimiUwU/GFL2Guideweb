@@ -58,7 +58,10 @@ body{
 }
 
 .box2{
-    font-family: 'prompt';
+
+    font-family: "Prompt", sans-serif;
+    font-weight: 100;
+    font-style: normal;
     display: flex;
     height: 150px;
     width: 100%;
